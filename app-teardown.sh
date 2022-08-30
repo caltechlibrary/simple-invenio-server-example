@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash -e
 
 # The base name of the Python file that defines our app.
 export FLASK_APP=myapp

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash -x
+#!/usr/bin/env bash -e
 
 # Make sure this port number matches the value used in app-setup.sh.
 PORT=5000

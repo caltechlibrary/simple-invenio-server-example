@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash -e
 
 # Change the following value to the port used by the Flask app in the
 # script run-app.sh
@@ -8,9 +8,6 @@ export PORT=5000
 
 # The base name of the Python file that defines our app.
 export FLASK_APP=myapp
-
-# Quit this script if an error occurs.
-set -o errexit
 
 # Test if something is already running on the port and give a useful message.
 if lsof -Pi :$PORT -sTCP:LISTEN -t > /dev/null; then
