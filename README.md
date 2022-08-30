@@ -10,7 +10,7 @@ Usage is as follows:
 
 1. Create a fresh empty Python 3.9 environment and install the dependencies:
     ```
-    pyenv virtualenv test-server
+    pyenv virtualenv 3.9.13 test-server
     pyenv activate test-server
     python -m pip install -r requirements.txt
     ```
@@ -48,4 +48,9 @@ You should get output like the following:
     },
     "updated": "2022-08-30T01:53:33.555060+00:00"
 }
+```
+
+When you are done, stop the server using:
+```
+./app-teardown.sh
 ```
