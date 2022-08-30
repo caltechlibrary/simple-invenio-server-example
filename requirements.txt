@@ -1,0 +1,6 @@
+invenio-db
+invenio-pidstore
+invenio-records
+invenio-records-rest
+invenio-search[elasticsearch7]
+pytest-invenio
